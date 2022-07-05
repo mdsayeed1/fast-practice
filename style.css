@@ -10,7 +10,7 @@ body{
     padding: 5%;
 }
 .first-style h1{
-    font-size: 55px;
+    font-size: 60px;
 }
 .color-tomato{
     color: tomato;
@@ -33,11 +33,22 @@ body{
     
     border-radius: 25px;
     border: 3px solid tomato;
-    border-color: brown;
+    border-color:tomato;
 }
 .batton-design:hover{
     background-color: tomato;
     transition-duration: 0.3s;
     color: white;
 }
-
+.bcg-image{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+}
+.center-text{
+    text-align: center;
+}
+.center-text h1{
+    font-size: 60px;
+}
+.center-text p{
+    padding: 0 20% 0 20%;
+}
